@@ -1,0 +1,8 @@
+{
+  "name": "Eria & Fabian Wedding",
+  "description": "Elegant wedding website for Eria & Fabian",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
