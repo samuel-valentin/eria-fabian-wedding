@@ -70,7 +70,7 @@ export default function FirstDance() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 1 }}
-          className="order-1 xl:order-2 w-full aspect-[4/3] xl:aspect-square bg-[#FDFBF7] rounded-[3rem] overflow-hidden flex items-center justify-center p-6 md:p-12 border border-terracotta/10 relative"
+          className="order-1 xl:order-2 w-full aspect-[3/4] md:aspect-[4/3] xl:aspect-square bg-[#FDFBF7] rounded-[3rem] overflow-hidden flex items-center justify-center p-6 md:p-12 border border-terracotta/10 relative"
         >
             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cream-paper.png')] opacity-50 mix-blend-multiply" />
             <img 
