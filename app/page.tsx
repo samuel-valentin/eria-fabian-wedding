@@ -4,6 +4,7 @@ import Details from '@/components/details';
 import Itinerary from '@/components/itinerary';
 import FirstDance from '@/components/first-dance';
 import RsvpRegistry from '@/components/rsvp-registry';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Itinerary />
       <FirstDance />
       <RsvpRegistry />
+      <SpeedInsights></SpeedInsights>
     </main>
   );
 }
