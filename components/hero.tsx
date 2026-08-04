@@ -22,7 +22,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.2 }}
         >
           <span className="font-sans text-xs uppercase tracking-[0.4em] mb-4 md:mb-6 block text-terracotta font-semibold">
-            We are getting married
+            Nos Casamos
           </span>
         </motion.div>
 
@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="h-[1px] w-24 bg-terracotta" />
           <span className="relative font-serif text-2xl md:text-3xl lg:text-4xl tracking-widest text-charcoal uppercase">
             <div className="absolute bottom-1 left-0 w-full h-3 bg-accent-yellow/40 -z-10 rounded-sm" />
-            November 7th
+            7 de Noviembre de 2026
           </span>
         </motion.div>
       </div>

@@ -25,8 +25,8 @@ export default function RsvpRegistry() {
           
           <div className="inline-block p-1 border border-terracotta/40">
             <div className="px-10 py-5 border border-terracotta flex flex-col gap-2 bg-terracotta/5">
-                <span className="font-sans uppercase text-xs tracking-[0.2em] text-terracotta">Confirm by</span>
-                <span className="font-serif text-2xl tracking-wider text-charcoal">&lt;To Be Defined&gt;</span>
+                <span className="font-sans uppercase text-xs tracking-[0.2em] text-terracotta">Confirmar antes de</span>
+                <span className="font-serif text-xl tracking-wider text-charcoal">Octubre 2026</span>
             </div>
           </div>
         </motion.div>
@@ -42,19 +42,14 @@ export default function RsvpRegistry() {
           <div className="w-20 h-20 rounded-full border border-terracotta flex items-center justify-center mb-8 bg-terracotta/5">
              <Gift size={32} className="text-terracotta stroke-1" />
           </div>
-          <h2 className="font-serif text-4xl md:text-5xl mb-6">Wishing Well</h2>
+          <h2 className="font-serif text-4xl md:text-5xl mb-6">Mesa de Regalos</h2>
           <p className="font-sans text-base md:text-lg text-charcoal/70 mb-10 leading-relaxed max-w-md">
-            Agradecemos de corazón que muchos de ustedes hayan viajado desde lejos para acompañarnos. ¡Ese es el mejor regalo! 
+            Sabemos que muchos de ustedes han viajado para acompañarnos en este día. ¡Su compañía es nuestro mejor regalo!
             <br /><br />
-            Si aun así desean honrarnos con un detalle, pueden encontrar nuestra lista a continuación.
+            Si desean hacernos el honor de agregar un detalle, les agradecemos sus aportaciones a:
+            <br /><br />
+            <span className="font-serif text-2xl font-semibold">CLABE 646180401624859934</span>
           </p>
-          <a 
-            href="#" 
-            className="group relative inline-flex items-center justify-center font-sans uppercase tracking-[0.2em] text-xs font-bold text-white bg-terracotta hover:bg-terracotta-dark transition-all duration-300 px-10 py-5 overflow-hidden"
-          >
-            <span className="relative z-10 text-white">View Registry</span>
-            <div className="absolute inset-0 bg-black/10 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
-          </a>
         </motion.div>
 
       </div>

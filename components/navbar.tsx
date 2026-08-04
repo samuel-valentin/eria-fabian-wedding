@@ -14,10 +14,9 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: 'Details', href: '#details' },
-    { name: 'Itinerary', href: '#itinerary' },
-    { name: 'Bike Ride', href: '#bike-ride' },
-    { name: 'RSVP & Registry', href: '#rsvp' },
+    { name: 'Detalles', href: '#details' },
+    { name: 'Agenda', href: '#itinerary' },
+    { name: 'RSVP & Regalos', href: '#rsvp' },
   ];
 
   return (

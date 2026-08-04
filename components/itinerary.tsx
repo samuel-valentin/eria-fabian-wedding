@@ -4,28 +4,16 @@ import { GlassWater, Utensils, Grape, Flag } from 'lucide-react';
 
 const events = [
   {
-    time: '9:45 HRS',
-    title: 'Recepción de Invitados',
-    description: 'Bienvenida a los invitados antes de la ceremonia.',
+    time: '4:00 PM',
+    title: 'S. Misa',
+    description: 'Ceremonia en Templo del Inmaculado Corazón de María.',
     icon: Flag,
   },
   {
-    time: '10:00 HRS',
-    title: 'Ceremonia Civil y Brindis',
-    description: 'Wenzelsaal im Grafeneckart-Turm.',
+    time: '7:00 PM',
+    title: 'Celebración',
+    description: 'Recepción y cena en La Casa del Relojero.',
     icon: GlassWater,
-  },
-  {
-    time: '13:00 HRS',
-    title: 'Lunch',
-    description: 'Alte Mainmühle.',
-    icon: Utensils,
-  },
-  {
-    time: '16:30 HRS',
-    title: 'Tour por el Viñedo',
-    description: 'Stein-Wein-Pfad Würzburg.',
-    icon: Grape,
   },
 ];
 
