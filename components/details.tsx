@@ -137,6 +137,29 @@ export default function Details() {
               </div>
             </div>
           </div>
+          
+          <div className="mt-12 lg:mt-16 relative z-10 border-t border-white/10 pt-12">
+            <h4 className="font-sans uppercase tracking-[0.2em] text-sm text-white/80 mb-8 font-bold text-center">Inspiración de Atuendos</h4>
+            
+            <div className="flex gap-4 md:gap-6 overflow-x-auto pb-4 snap-x snap-mandatory hide-scrollbar">
+               {[...Array(15)].map((_, i) => (
+                 <div key={i} className="shrink-0 w-64 md:w-72 aspect-[3/4] rounded-xl overflow-hidden snap-center relative bg-white/5 border border-white/10 shadow-lg">
+                   <img 
+                     src={`/images/dresscode/${i + 1}.jpg`} 
+                     alt={`Inspiración de vestimenta ${i + 1}`}
+                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                     onError={(e) => {
+                       (e.target as HTMLImageElement).src = `https://picsum.photos/seed/dress${i}/400/600`;
+                     }}
+                   />
+                 </div>
+               ))}
+            </div>
+            
+            <p className="font-sans text-xs text-white/50 text-center uppercase tracking-widest mt-6">
+              Desliza para ver más
+            </p>
+          </div>
         </motion.div>
       </div>
     </section>
